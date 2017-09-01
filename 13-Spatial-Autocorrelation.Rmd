@@ -83,7 +83,7 @@ knitr::include_graphics(c("img/HH_LL_noP.png", "img/HH_LL_noP_map.png"))
 
 Next, we can use Monte Carlo techniques to assess whether or not the High-High values and Low-Low values are significant at a confidence level of 0.05 (i.e. for P-value= 0.05).
 
-```{r f13-local-I-MC, echo=FALSE, fig.cap="Significantly High-High and Low-Low clusters with P-values less than or equal to 0.5.", out.height=300, out.width=300, fig.align='center'}
+```{r f13-local-I-MC, echo=FALSE, fig.cap="Significantly High-High and Low-Low clusters with P-values less than or equal to 0.05.", out.height=300, out.width=300, fig.align='center'}
 knitr::include_graphics(c("img/HH_LL_P.png", "img/HH_LL_P_map.png"))
 ```
 
